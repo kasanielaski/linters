@@ -8,4 +8,4 @@ Project with `React` + `styled-components` + `recess-order`. Linters with flat c
 
 ## Usage
 
-Each script can be run independently or integrated into a larger CI/CD pipeline. Detailed instructions on how to use each script are provided within the respective script files.
+To make this works in VS Code, you'll need following plugins to be installed: `Eslint`, `Stylelint`, `Prettier`.
