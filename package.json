@@ -25,7 +25,6 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "postcss": "^8.5.3",
     "postcss-styled-syntax": "^0.7.1",
-    "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-recess-order": "^6.0.0",
     "stylelint-config-standard": "^37.0.0",
     "stylelint-config-styled-components": "^0.1.1"
