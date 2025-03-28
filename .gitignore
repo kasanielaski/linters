@@ -1,0 +1,17 @@
+# generated directories
+build
+node_modules
+coverage
+
+# generated files
+.jest-test-results.json
+
+# editor directories
+.vscode
+.idea
+
+# lock files
+*.lock
+
+# macos dummy files
+**/.DS_Store
