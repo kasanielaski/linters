@@ -1,16 +1,50 @@
 {
-  "name": "@kasanielaski/linters",
+  "name": "@kasanie_laski/linters",
   "version": "1.1.3",
-  "description": "linters app",
-  "main": "index.js",
+  "description": "Shared ESLint, Stylelint and Prettier flat-config presets for React + styled-components projects",
   "type": "module",
-  "keywords": [],
-  "author": "kasanielaski",
-  "license": "ISC",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "eslint.config.js",
+    "stylelint.config.js",
+    "prettier.config.js"
+  ],
   "scripts": {
     "lint": "eslint \"{src,lib,services}/**/*.{js,ts,jsx,tsx}\"",
     "lint:css": "stylelint \"{src,lib,services}/**/*.{jsx,tsx,ts,js}\"",
     "format": "prettier --write \"{src,lib,services}/**/*.{js,ts,tsx,jsx,json,md}\""
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-flat-config",
+    "stylelint",
+    "stylelint-config",
+    "prettier",
+    "react",
+    "styled-components",
+    "linter",
+    "lint"
+  ],
+  "author": "kasanielaski",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasanielaski/linters.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kasanielaski/linters/issues"
+  },
+  "homepage": "https://github.com/kasanielaski/linters#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18.18.0"
   },
   "dependencies": {
     "@eslint/compat": "^1.2.7",
@@ -26,12 +60,12 @@
     "postcss": "^8.5.3",
     "postcss-styled-syntax": "^0.7.1",
     "stylelint-config-recess-order": "^6.0.0",
-    "stylelint-config-standard": "^37.0.0",
-    "stylelint-config-styled-components": "^0.1.1"
+    "stylelint-config-standard": "^37.0.0"
   },
   "peerDependencies": {
     "eslint": "^9.23.0",
     "prettier": "^3.5.3",
-    "stylelint": "^16.16.0"
+    "stylelint": "^16.16.0",
+    "typescript": ">=4.8.4 <5.9.0"
   }
 }
